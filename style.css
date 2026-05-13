@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0;
     padding: 0;
@@ -43,3 +44,181 @@ button:hover{
     font-size: 25px;
     font-weight: bold;
 }
+=======
+/* body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color: lightblue;
+    font-family: Poppins;
+    
+}
+
+.board{
+    display:grid;
+    grid-template-columns:repeat(3,100px);
+}
+
+.cell{
+    width:100px;
+    height:100px;
+    border:2px solid black;
+    border-radius: 10px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow: 0 0 10px gray;
+
+    font-size:40px;
+    cursor:pointer;
+    background-color: white;
+    color: darkred;
+    transition: 0.3s;
+
+    backdrop-filter: blur(10px);
+}
+.clr{
+    color: crimson;
+}
+h1{
+    color: darkblue;
+    margin: 10px;
+
+}
+#status{
+    color: rgb(177, 0, 94);
+}
+.cell:hover{
+    background-color: darksalmon;
+    transform: scale(1.1);
+}
+#button{
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10pc;
+}
+#button:hover{
+    background-color: lightcoral;
+} */
+
+
+body{
+    background-color: black;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+
+    font-family: Arial;
+}
+
+
+.container{
+    text-align:center;
+}
+
+
+h1{
+    color: cyan;
+
+    text-shadow: 0px 0px 10px cyan;
+}
+
+
+#status{
+    color: lime;
+
+    text-shadow: 0px 0px 10px lime;
+}
+
+
+.board{
+    display:grid;
+
+    grid-template-columns: repeat(3,100px);
+
+    gap:10px;
+
+    justify-content:center;
+
+    margin:20px 0;
+}
+
+
+.cell{
+
+    width:100px;
+    height:100px;
+
+    border:2px solid cyan;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:40px;
+    color:white;
+
+    cursor:pointer;
+
+    box-shadow: 0px 0px 10px cyan;
+
+    transition:0.3s;
+
+}
+
+
+.cell:hover{
+
+    background-color: cyan;
+
+    color:black;
+
+    transform:scale(1.1);
+
+    box-shadow: 0px 0px 20px cyan;
+
+}
+
+
+#button{
+
+    background-color:black;
+
+    color:cyan;
+
+    border:2px solid cyan;
+
+    padding:10px 20px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    border-radius:10px;
+
+    transition:0.3s;
+
+    box-shadow:0px 0px 10px cyan;
+
+}
+
+
+#button:hover{
+
+    background-color:cyan;
+
+    color:black;
+
+    transform:scale(1.1);
+
+    box-shadow:0px 0px 20px cyan;
+
+}
+>>>>>>> 5aae8094388313bfdd5084187966400bf83eaa83
