@@ -1,224 +1,116 @@
-<<<<<<< HEAD
+
 body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #f4f4f4;
-    font-family: arial,sans-serif;
+
+    margin:0;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+    background:linear-gradient(
+        135deg,
+        #0f172a,
+        #111827,
+        #1e1b4b,
+        #312e81
+    );
+
+    overflow:hidden;
+}
+
+.counter-container{
+
+    background:rgba(255,255,255,0.08);
+
+    padding:50px;
+
+    border-radius:30px;
+
+    backdrop-filter:blur(12px);
+    text-align:center;
+    transition:0.4s;
+    box-shadow:0px 20px 50px rgba(0,0,0,0.4);
+
+    border:1px solid rgba(255,255,255,0.1);
+}
+.counter-container:hover{
+    background: #023d57;
+    transform:scale(1.1);
 }
 .container{
+    align-items: center;
     text-align: center;
+    width: 1400px;
     background: darkcyan;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0,0,0.2);
 }
-h1{
-    color: #333;
-    margin-bottom: 20px;
-    margin-left: 1220px;
-}
-.buttons{
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-}
-button{
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    background: #06353a;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-button:hover{
-    background: #009fb3;
-}
 #count{
     font-size: 25px;
     font-weight: bold;
 }
-=======
-/* body{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
-    background-color: lightblue;
-    font-family: Poppins;
-    
-}
-
-.board{
-    display:grid;
-    grid-template-columns:repeat(3,100px);
-}
-
-.cell{
-    width:100px;
-    height:100px;
-    border:2px solid black;
-    border-radius: 10px;
+.counter-box{
 
     display:flex;
+
     justify-content:center;
-    align-items:center;
-    box-shadow: 0 0 10px gray;
 
-    font-size:40px;
-    cursor:pointer;
-    background-color: white;
-    color: darkred;
-    transition: 0.3s;
-
-    backdrop-filter: blur(10px);
-}
-.clr{
-    color: crimson;
-}
-h1{
-    color: darkblue;
-    margin: 10px;
-
-}
-#status{
-    color: rgb(177, 0, 94);
-}
-.cell:hover{
-    background-color: darksalmon;
-    transform: scale(1.1);
-}
-#button{
-    background-color: darkblue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10pc;
-}
-#button:hover{
-    background-color: lightcoral;
-} */
-
-
-body{
-    background-color: black;
-
-    display:flex;
-    justify-content:center;
     align-items:center;
 
-    height:100vh;
+    gap:20px;
 
-    font-family: Arial;
+    margin-top:30px;
 }
 
+button{
 
-.container{
-    text-align:center;
-}
+    width:60px;
 
+    height:60px;
 
-h1{
-    color: cyan;
+    border:none;
 
-    text-shadow: 0px 0px 10px cyan;
-}
+    border-radius:15px;
 
+    background:linear-gradient(to right,#38bdf8,#8b5cf6);
 
-#status{
-    color: lime;
-
-    text-shadow: 0px 0px 10px lime;
-}
-
-
-.board{
-    display:grid;
-
-    grid-template-columns: repeat(3,100px);
-
-    gap:10px;
-
-    justify-content:center;
-
-    margin:20px 0;
-}
-
-
-.cell{
-
-    width:100px;
-    height:100px;
-
-    border:2px solid cyan;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    font-size:40px;
     color:white;
 
-    cursor:pointer;
-
-    box-shadow: 0px 0px 10px cyan;
-
-    transition:0.3s;
-
-}
-
-
-.cell:hover{
-
-    background-color: cyan;
-
-    color:black;
-
-    transform:scale(1.1);
-
-    box-shadow: 0px 0px 20px cyan;
-
-}
-
-
-#button{
-
-    background-color:black;
-
-    color:cyan;
-
-    border:2px solid cyan;
-
-    padding:10px 20px;
-
-    font-size:18px;
+    font-size:28px;
 
     cursor:pointer;
 
-    border-radius:10px;
-
-    transition:0.3s;
-
-    box-shadow:0px 0px 10px cyan;
-
+    transition:0.4s;
 }
 
-
-#button:hover{
-
-    background-color:cyan;
-
-    color:black;
+button:hover{
 
     transform:scale(1.1);
 
-    box-shadow:0px 0px 20px cyan;
-
+    box-shadow:0px 10px 25px rgba(139,92,246,0.5);
 }
->>>>>>> 5aae8094388313bfdd5084187966400bf83eaa83
+
+#count{
+
+    font-size:40px;
+
+    font-weight:bold;
+
+    color:white;
+
+    width:60px;
+}
+
+h1{
+
+    color:white;
+
+    font-size:50px;
+
+    margin:0;
+}
